@@ -1,0 +1,28 @@
+html { background:#181818; font-size:12px; color:#fff; font-family:Arial; }
+a, img { padding:0; margin:0; }
+.palette {
+	overflow:hidden;
+	width:160px; /* 16 columns, 10px width each */
+	padding:10px;
+	background:#404040;
+	margin:20px auto;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;	
+}
+a.cp {
+	display:block;
+	float:left;
+	padding:5px;
+}
+.chosen-color {
+	width:50px;
+	height:50px;
+	border:1px solid #303030;
+	margin:20px auto;
+}
+.cell {
+	background-color:#ccc;
+	border:1px solid #303030;
+	display:block;
+}
